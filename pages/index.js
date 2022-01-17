@@ -21,7 +21,6 @@ export default function Home() {
           position: `relative`,
           userSelect: `none`,
           overflowY: `hidden`,
-          mixBlendMode: ``,
         }}
       >
         <Box>
