@@ -21,6 +21,7 @@ export default function Home() {
           position: `relative`,
           userSelect: `none`,
           overflowY: `hidden`,
+          padding: [`2vh`, `0`],
         }}
       >
         <Box>
@@ -34,6 +35,7 @@ export default function Home() {
               opacity: `0.5`,
               mixBlendMode: `luminosity`,
               userSelect: `none`,
+              zIndex: `0`,
             }}
             draggable="false"
           />
@@ -86,13 +88,22 @@ export default function Home() {
             product consult.
           </Text>
           <Box sx={{ minHeight: `1rem` }}></Box>
-          <Box sx={{ display: `flex`, gap: `1rem` }}>
+          <Box
+            sx={{
+              display: `flex`,
+              flexDirection: [`column`, `row`],
+              gap: `1rem`,
+              alignItems: `center`,
+              zIndex: `3`,
+              position: `relative`,
+            }}
+          >
             <a
               href="https://twitter.com/mackenziepbowes"
               target="_blank"
               rel="noreferrer"
             >
-              <Text
+              <Box
                 sx={{
                   fontSize: `1rem`,
                   border: `2px solid #F9E6E6`,
@@ -100,6 +111,7 @@ export default function Home() {
                   padding: `.5rem 3rem`,
                   display: `inline-block`,
                   transition: `all 0.25s`,
+                  backgroundColor: [`#CC252C`, `#cc252c`],
                 }}
                 _hover={{
                   backgroundColor: `#F9E6E6`,
@@ -108,7 +120,7 @@ export default function Home() {
                 }}
               >
                 Twitter →
-              </Text>
+              </Box>
             </a>
             <a
               href="https://github.com/mackbowes"
@@ -123,6 +135,7 @@ export default function Home() {
                   padding: `.5rem 3rem`,
                   display: `inline-block`,
                   transition: `all 0.25s`,
+                  backgroundColor: [`#CC252C`, `transparent`],
                 }}
                 _hover={{
                   backgroundColor: `#F9E6E6`,
@@ -146,6 +159,7 @@ export default function Home() {
                   padding: `.5rem 3rem`,
                   display: `inline-block`,
                   transition: `all 0.25s`,
+                  backgroundColor: [`#CC252C`, `transparent`],
                 }}
                 _hover={{
                   backgroundColor: `#F9E6E6`,
@@ -164,6 +178,7 @@ export default function Home() {
                 padding: `.5rem 3rem`,
                 display: `inline-block`,
                 transition: `all 0.25s`,
+                backgroundColor: [`#CC252C`, `transparent`],
               }}
               _hover={{
                 backgroundColor: `#F9E6E6`,
