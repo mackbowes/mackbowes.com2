@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Mack Bowes</title>
+        <link rel="icon" type="image/x-icon" href="/mesmrt.png"></link>
       </Head>
       <Box
         sx={{
