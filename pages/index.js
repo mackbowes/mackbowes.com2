@@ -32,7 +32,7 @@ export default function Home() {
               position: `absolute`,
               right: `0`,
               bottom: `0`,
-              opacity: `0.5`,
+              opacity: `0.1`,
               mixBlendMode: `luminosity`,
               userSelect: `none`,
               zIndex: `0`,
