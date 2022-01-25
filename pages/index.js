@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import { Box, Heading, Text, Image, Link } from "@chakra-ui/react";
 import toast from "react-hot-toast";
 
